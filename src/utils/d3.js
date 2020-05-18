@@ -1,4 +1,6 @@
-import { drag, event, zoom } from 'd3';
+import { event } from 'd3-selection';
+import { drag } from 'd3-drag';
+import { zoom } from 'd3-zoom';
 import { getViewBox } from './dimensions';
 
 /*

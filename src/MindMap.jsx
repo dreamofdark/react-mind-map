@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  forceCollide,
-  forceLink,
-  forceManyBody,
-  forceSimulation,
-  select,
-  zoom,
-  zoomIdentity,
-} from 'd3';
+import { select } from 'd3-selection';
+import { forceCollide, forceLink, forceManyBody, forceSimulation } from 'd3-force';
+import { zoom, zoomIdentity } from 'd3-zoom';
 
 import {
   d3Connections,
